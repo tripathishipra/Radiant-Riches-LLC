@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card2-outer-div  h1{
+    color: 
+    #2C384A;
+    font-size: 28px;
+    font-weight: 400;
+  margin-left: 7rem;
+   
+    }
+    .card2-inner-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0px;
+    }
+    .signup-div{
+       
+        display: flex;
+        flex-direction: row;
+      
+       align-items: center;
+      
+    }
+    .signup-but{
+        width: 100px;
+        height: 60px;
+        background-color: #1B88F4;
+        position: absolute;
+        right: 0px;  
+       color: #ffffff;
+        margin-right: 6rem;
+   border-radius: 0px 10px 10px 0px;
+    }
+
+    .signup-div h1{
+       font-size: 29px;
+        margin-left: 5rem;
+        color: #5C6874;
+    }

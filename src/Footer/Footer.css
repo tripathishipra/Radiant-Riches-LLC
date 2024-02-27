@@ -1,0 +1,58 @@
+
+
+/* Container for the entire footer */
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #212731;
+    color: white;
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+  }
+  
+  /* Styling for the first column */
+  .footer-heading-1 {
+    width: 33.33%;
+    margin-left: 18rem;
+    display: flex;
+    flex-direction: column;
+   padding: 10px;
+  }
+  
+  /* Styling for the second column */
+  .footer-heading-2 {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  /* Styling for the third column (United States) */
+  .United {
+    width: 33.33%;
+    text-align: right;
+   margin-bottom: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    
+  }
+  
+  /* Arrow styling */
+  .United img {
+    margin-left: 5px;
+    height: 10px;
+    margin-top: .5rem;
+  }
+  .footer-heading-1 p,
+   .footer-heading-2 p{
+    font-size: 14px;
+   padding: 6px;
+   color: #B6BDC4;
+   }
+
+   .footer-heading-1 h3,
+   .footer-heading-2 h3{
+    font-size: 18px;
+    font-weight: normal;
+   }

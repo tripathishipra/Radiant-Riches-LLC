@@ -1,0 +1,175 @@
+/* Add your CSS styling here */
+* {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+  
+  padding: 20px;
+  margin: 20px;
+ 
+
+}
+
+/* Rest of your existing styles */
+
+
+.number-circle {
+  position: relative;
+  top: 30px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  width: 36px;
+  height: 36px;
+  background-color: #ffffff;
+  color:#626E79;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid  #E1E4E6;
+}
+
+
+
+
+.card-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  height: 250px;
+}
+
+.card-left img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card-left h4 {
+  font-size: 16px;
+  color: #626E79;
+}
+
+.badge-div {
+  background-color: #ff7724;
+  width: 140px;
+  padding: 4px;
+  height: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 16rem;
+  margin-right: 9rem;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  padding: 10px 0px 0px 10px;
+}
+
+.png1 {
+  position: absolute;
+}
+
+.card-left h4 {
+  position: absolute;
+ padding-top: 8rem;
+  
+}
+
+
+
+.card-middle {
+  flex: 2;
+  padding: 0 20px;
+
+}
+
+.card-middle h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-middle p {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.card-middle h3 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.card-middle h4 {
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.card-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.card-box {
+  background-color:  #F3F9FF;
+  color:#074786;
+  border-radius: 0px 0px 12px 12px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: -60px;
+
+}
+
+.card-box h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.card-box p {
+  font-size: 14px;
+  color:#074786;
+  margin-bottom: 5px;
+}
+
+.button {
+ 
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  background-color: #007bff;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

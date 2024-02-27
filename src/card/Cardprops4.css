@@ -1,0 +1,61 @@
+.main-point {
+  height: 130px;
+  width: 520px;
+  background-color: #fff4ed;
+  border: none;
+  border-radius: 12px;
+}
+
+.point {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.small-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  height: 30px;
+}
+
+.small-container p {
+  margin-top: 15px;
+  color: #4b5665;
+  font-weight: 400px;
+  font-size: 20px;
+}
+
+.inner-div {
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-right: 10px;
+  color: #1b88f4;
+}
+
+.heading {
+  color: #2c384a;
+}
+.circle {
+  background-color: #ebf5ff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-right: 10px;
+  color: #1b88f4;
+  border-radius: 50%;
+}
+.tick {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #0855a1; /* Blue color for the tick */
+}
